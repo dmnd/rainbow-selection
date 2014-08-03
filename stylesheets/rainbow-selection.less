@@ -1,0 +1,43 @@
+@-webkit-keyframes rainbow-selection {
+  @saturation: 60%;
+  @lightness: 30%;
+  @opacity: 1;
+  @step: 360/10;
+  0% {
+    background-color: hsl(0 * @step, @saturation, @lightness, @opacity);
+  }
+  10% {
+    background-color: hsl(1 * @step, @saturation, @lightness, @opacity);
+  }
+  20% {
+    background-color: hsl(2 * @step, @saturation, @lightness, @opacity);
+  }
+  30% {
+    background-color: hsl(3 * @step, @saturation, @lightness, @opacity);
+  }
+  40% {
+    background-color: hsl(4 * @step, @saturation, @lightness, @opacity);
+  }
+  50% {
+    background-color: hsl(5 * @step, @saturation, @lightness, @opacity);
+  }
+  60% {
+    background-color: hsl(6 * @step, @saturation, @lightness, @opacity);
+  }
+  70% {
+    background-color: hsl(7 * @step, @saturation, @lightness, @opacity);
+  }
+  80% {
+    background-color: hsl(8 * @step, @saturation, @lightness, @opacity);
+  }
+  90% {
+    background-color: hsl(9 * @step, @saturation, @lightness, @opacity);
+  }
+  100% {
+    background-color: hsl(10 * @step, @saturation, @lightness, @opacity);
+  }
+}
+
+.editor .selection .region {
+  -webkit-animation: rainbow-selection 10s linear infinite;
+}

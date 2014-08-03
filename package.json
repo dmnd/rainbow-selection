@@ -1,0 +1,11 @@
+{
+  "name": "rainbow-selection",
+  "main": "./lib/rainbow-selection",
+  "version": "0.0.0",
+  "description": "Unnecessarily colourful selections",
+  "repository": "https://github.com/dmnd/rainbow-selection",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
