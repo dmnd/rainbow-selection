@@ -6,6 +6,6 @@
   "repository": "https://github.com/dmnd/rainbow-selection",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.175.0"
   }
 }
