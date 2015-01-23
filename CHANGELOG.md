@@ -1,4 +1,4 @@
-## 0.2.0 - Remove support for non-Shadow DOM
+## 0.3.0 - Remove support for non-Shadow DOM
  * Stops PackageCop complaining about this package
 
 
